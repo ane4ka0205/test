@@ -8,7 +8,8 @@ pipeline{
         }
       stage("Hello world"){
         steps{
-            sh "echo "Hello world"
+            sh "touch /tmp/file1"
+            sh "echo Hello > /tmp/file1"
             }
         }
     }
