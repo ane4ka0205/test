@@ -12,6 +12,7 @@ pipeline{
             set +xe
             mkdir /tmp/folder
             touch /tmp/file1
+            echo Hello > /tmp/file1
             '''
             }
         }
