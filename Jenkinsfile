@@ -8,8 +8,7 @@ pipeline{
         }
       stage("Hello world"){
         steps{
-            sh "touch /tmp/file1"
-            sh "echo Hello > /tmp/file1"
+            sh "mkdir /tmp/folder"
             }
         }
     }
