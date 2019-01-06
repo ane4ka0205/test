@@ -9,6 +9,7 @@ pipeline{
       stage("Hello world"){
         steps{
             sh "mkdir /tmp/folder"
+            set +xe
             sh "touch /tmp/file1"
             }
         }
