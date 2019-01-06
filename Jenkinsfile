@@ -6,5 +6,10 @@ pipeline{
             git 'https://github.com/ane4ka0205/test.git'
             }
         }
+      stage("Hello world"){
+        steps{
+            sh "echo "Hello world"
+            }
+        }
     }
 }
